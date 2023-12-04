@@ -27,7 +27,11 @@
 
         h1, h2, h3 {
             color: #333;
-        
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
 
         footer {
             text-align: center;
@@ -36,29 +40,24 @@
             color: white;
         }
 
-    
+        
     .project {
         margin-bottom: 20px;
-        border-bottom: 2px solid #4a90e2; /* Ajoute une ligne entre chaque projet */
-        padding-bottom: 15px; /* Espace entre la ligne et le contenu du projet */
-    }
-
-    .project:last-child {
-        border-bottom: none; /* Supprime la bordure du dernier projet */
     }
 
     .project img {
-        width: 100%;
-        height: auto;
-        border: 2px solid #4a90e2;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(74, 144, 226, 0.5);
-        transition: transform 0.3s ease-in-out;
+        width: 100%; /* Pour assurer que toutes les images ont la même largeur */
+        height: auto; /* Pour maintenir les proportions de l'image */
+        border: 2px solid #4a90e2; /* Bordure stylisée cyberpunk */
+        border-radius: 10px; /* Coins arrondis */
+        box-shadow: 0 0 10px rgba(74, 144, 226, 0.5); /* Ombre légère */
+        transition: transform 0.3s ease-in-out; /* Effet de transition au survol */
     }
 
     .project img:hover {
-        transform: scale(1.1);
+        transform: scale(1.1); /* Zoom au survol */
     }
+
     /* Ajoutez d'autres styles selon vos préférences */
 
 
