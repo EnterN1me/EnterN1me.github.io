@@ -3,24 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Télécharger un fichier PNG</title>
+    <title>Happy BirthDay</title>
     <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white; /* Couleur de fond du corps */
+        }
+
+        .container {
+            text-align: center;
+        }
+
         .gift-button {
-            background-image: url('cadeau.png'); /* Remplacez par le chemin de votre icône de cadeau */
+            background-image: url('cadeau.png'); /* Utilisation de l'icône comme image de fond */
             background-size: cover;
             width: 100px;
             height: 100px;
             border: none;
             cursor: pointer;
+            background-color: white; /* Couleur de fond du bouton, identique à celle du corps */
+        }
+
+        h1 {
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>Ouvre le cadeau !</h1>
-    <a href="cadeau.png" download="cadeau.png">
-        <button class="gift-button"></button>
-    </a>
-
-    <!-- Remplacez "path/to/your/image.png" par le chemin réel de votre fichier PNG -->
+    <div class="container">
+        <a href="ticket.pdf" download="ticket.pdf">
+            <button class="gift-button"></button>
+        </a>
+    </div>
 </body>
 </html>
